@@ -1,49 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Iphone Website</title>
-    <link rel="stylesheet" href="style.css" />
-    <!--Icon from https://flaticon.com-->
-    <link rel="icon" href="imgs/phone.png"/>
-      
-  </head>
-  <body>
-    <!--Iphone-->
-    <div class="iphoneframe">
-      <!--For the camera and top of the iphone-->
-      <div class="top">
-        <div class="camera"></div>
-        <div class="line"></div>
-      </div>
-      <!--For the main content e.g apps etc.-->
-      <div class="content">
-        <div class="grid-container">
-          <div class="app">
-            <div class="applogo">
-              <img src="imgs/Settings.webp" width="50px"/>
-            </div>
-            <div class="appname">
-              Settings
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iphone Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!--Icon from https://flaticon.com-->
+  <link rel="icon" href="imgs/phone.png" />
+
+</head>
+
+<body>
+  <!--Iphone-->
+  <div class="iphoneframe">
+    <!--For the camera and top of the iphone-->
+    <div class="top">
+      <div class="camera"></div>
+      <div class="line"></div>
+    </div>
+    <!--For the main content e.g apps etc.-->
+    <div class="content">
+      <div class="apps">
+        <div class="app">
+          <div class="applogo" id="setting-btn">
+            <img src="imgs/Settings.webp" width="50px" />
           </div>
-          <div class="app">
-            <div class="applogo">
-              <img src="imgs/Messages.webp" width="50px"/>
-            </div>
-            <div class="appname">
-              Message
+          <div class="appname">
+            Settings
+          </div>
+          <!--Content of each app (Modal)-->
+          <div class="modal" id="setting-modal">
+            <div class="message-content">
+              <span class="close">&times;</span>
+              <p>Some text in the Modal..</p>
             </div>
           </div>
         </div>
-      </div>
-      <!--For the bottom part of the iphone, with the button to go back to home.-->
-      <div class="homebutton">
-        <button></button>
+        <div class="app">
+          <div class="applogo">
+            <img src="imgs/Messages.webp" width="50px" />
+          </div>
+          <div class="appname">
+            Message
+          </div>
+        </div>
       </div>
     </div>
+    <!--For the bottom part of the iphone, with the button to go back to home.-->
+    <div class="homebutton">
+      <button></button>
+    </div>
+  </div>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
+
 </html>
