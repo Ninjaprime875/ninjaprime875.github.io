@@ -1,1 +1,1 @@
-# This is my personal website that I designed for fun
+# Ninjaprime875's personal Phone-Themed Website
