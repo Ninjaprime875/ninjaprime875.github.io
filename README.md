@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **java and python**
 
-- 🏀 My hobbies are [Playing sports (soccer, basketball, swimming), reading, coding, and playing musical instruments (piano, saxophone)](Playing sports (soccer, basketball, swimming), reading, coding, and playing musical instruments (piano, saxophone))
+- 🏀 My hobbies are : Playing sports (soccer, basketball, swimming), reading, coding, and playing musical instruments (piano, saxophone)
 
 - 💬 Ask me about **frontend and mobile development**
 
