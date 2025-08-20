@@ -13,7 +13,6 @@
 
 - 👯 I’m a proud member of the **Youth Steam Initiative**
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
